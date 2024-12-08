@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./SimilarItems.css";
 import image1 from "../images/product1.jpeg";
 
+
 const SimilarItems = () => {
   const items = [
     {

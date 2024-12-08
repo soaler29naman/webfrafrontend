@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
 import product1 from "../images/product1.jpeg";
+import product2 from "../images/tableround.jpeg";
 const Hero = () => {
   const [selectedImage, setSelectedImage] = useState(product1); // Placeholder for selected image
   const [expandedSection, setExpandedSection] = useState(null); // To handle expandable sections
@@ -21,7 +22,7 @@ const Hero = () => {
         {/* Left Section: Image Gallery */}
         <div className="image-gallery">
           <div className="thumbnails">
-            {[product1, product1, product1].map((image, index) => (
+            {[product2, product2, product2].map((image, index) => (
               <img
                 key={index}
                 src={image} // Replace with actual image paths
