@@ -1,0 +1,115 @@
+/* Main Section Container */
+.section-container {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top Section: Services */
+  .services h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .services .highlight {
+    color: #007bff;
+  }
+  
+  .services p {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .service-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .service-item {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .service-item img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .service-item span {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  /* Bottom Section: Promotion */
+  .promotion {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .promo-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .promo-signup {
+    flex: 1;
+    padding: 20px;
+    background-color: #fce4f4;
+    border-radius: 10px;
+  }
+  
+  .promo-signup h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .promo-signup .highlight {
+    color: #007bff;
+  }
+  
+  .promo-signup p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .signup-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
