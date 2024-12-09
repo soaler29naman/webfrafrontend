@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Logo Section */}
+
         <div className="footer-logo">
-          <img src="logo.png" alt="Logo" /> {/* Replace with actual logo path */}
+          <img src="logo.png" alt="Logo" /> 
         </div>
 
-        {/* Info Sections */}
+
         <div className="footer-sections">
           <div className="footer-section">
             <h4>INFOS PRATIQUES</h4>

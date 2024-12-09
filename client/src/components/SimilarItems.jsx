@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SimilarItems.css";
-import image1 from "../images/product1.jpeg";
+import image1 from "../images/tableround.jpeg";
 
 
 const SimilarItems = () => {
@@ -12,9 +12,9 @@ const SimilarItems = () => {
       description: "0.35€/Piece - REF: V4X05",
       category: "ART DE LA TABLE",
       quantity: "20 pièces",
-      image: image1, // Replace with actual image paths
+      image: image1,
     },
-    // Duplicate or update for more items
+    
     { id: 2, title: "Title", price: "0€", description: "0.35€/Piece - REF: V4X05", category: "ART DE LA TABLE", quantity: "20 pièces", image: image1 },
     { id: 3, title: "Title", price: "0€", description: "0.35€/Piece - REF: V4X05", category: "ART DE LA TABLE", quantity: "20 pièces", image: image1 },
     { id: 4, title: "Title", price: "0€", description: "0.35€/Piece - REF: V4X05", category: "ART DE LA TABLE", quantity: "20 pièces", image: image1 },
@@ -27,7 +27,7 @@ const SimilarItems = () => {
     if (direction === "left") {
       setScrollIndex((prevIndex) => Math.max(prevIndex - 1, 0));
     } else if (direction === "right") {
-      setScrollIndex((prevIndex) => Math.min(prevIndex + 1, items.length - 3)); // Adjust based on visible cards
+      setScrollIndex((prevIndex) => Math.min(prevIndex + 1, items.length - 5)); 
     }
   };
 
@@ -40,7 +40,7 @@ const SimilarItems = () => {
           ◀
         </button>
         <div className="carousel-items">
-          {items.slice(scrollIndex, scrollIndex + 3).map((item) => (
+          {items.slice(scrollIndex, scrollIndex + 10).map((item) => (
             <div className="card" key={item.id}>
               <img src={item.image} alt={item.title} />
               <div className="card-content">

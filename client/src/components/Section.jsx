@@ -13,22 +13,22 @@ const Section = () => {
         <p>Office ipsum you must be muted. It meeting commitment busy pain.</p>
         <div className="service-items">
           <div className="service-item">
-            <img src="delivery-icon.png" alt="Livraison & Reprise" /> {/* Replace with icon */}
+            <img src="delivery-icon.png" alt="Livraison & Reprise" /> 
             <p>Livraison & Reprise</p>
             <span>Selon vos besoins</span>
           </div>
           <div className="service-item">
-            <img src="cleaning-icon.png" alt="Nettoyage" /> {/* Replace with icon */}
+            <img src="cleaning-icon.png" alt="Nettoyage" />
             <p>Nettoyage</p>
             <span>Selon vos besoins</span>
           </div>
           <div className="service-item">
-            <img src="infinity-icon.png" alt="Commande Illimitée" /> {/* Replace with icon */}
+            <img src="infinity-icon.png" alt="Commande Illimitée" />
             <p>Commande Illimitée</p>
             <span>Tout est possible</span>
           </div>
           <div className="service-item">
-            <img src="transport-icon.png" alt="Transport & Enlèvement" /> {/* Replace with icon */}
+            <img src="transport-icon.png" alt="Transport & Enlèvement" /> 
             <p>Transport & Enlèvement</p>
             <span>On s’occupe de tout.</span>
           </div>
@@ -38,7 +38,7 @@ const Section = () => {
       {/* Bottom Section: Image and Signup */}
       <div className="promotion">
         <div className="promo-image">
-          <img src={couchimage} alt="Promo" /> {/* Replace with your image */}
+          <img src={couchimage} alt="Promo" /> 
         </div>
         <div className="promo-signup">
           <h3>
